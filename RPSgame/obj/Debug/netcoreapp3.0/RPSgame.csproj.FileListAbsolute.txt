@@ -1,0 +1,3 @@
+C:\Users\jobso\Desktop\RPSproject\RPSgame\obj\Debug\netcoreapp3.0\RPSgame.csprojAssemblyReference.cache
+C:\Users\jobso\Desktop\RPSproject\RPSgame\obj\Debug\netcoreapp3.0\RPSgame.AssemblyInfoInputs.cache
+C:\Users\jobso\Desktop\RPSproject\RPSgame\obj\Debug\netcoreapp3.0\RPSgame.AssemblyInfo.cs
