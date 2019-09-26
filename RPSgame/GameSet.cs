@@ -42,7 +42,7 @@ namespace RPSgame
                         Console.WriteLine("Please enter a valid gametype.");
                         break;
                 } 
-            } while (input != 2 || input != 1);
+            } while (pvp!= 2 && pve != 1);
             
 
            
