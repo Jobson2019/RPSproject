@@ -8,7 +8,7 @@ namespace RPSgame
         {
             Game game = new Game();
             game.RunGame();
-            Console.ReadLine();
+            Console.ReadLine(); 
 
                 
             Console.WriteLine("Welcome to This Shitty Game");
