@@ -76,7 +76,7 @@ namespace RPSgame
             }
         }
 
-        public int RoundWinner(int p1Choice, int p2Choice)
+        public int RoundWinner(int p1Choice, int p2Choice) //not completely my code, was testing if something worked better than my solution before I lost the file.
         {
             switch (p1Choice)
             {

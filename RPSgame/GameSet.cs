@@ -28,7 +28,7 @@ namespace RPSgame
             do
             {
                 string input;
-                Console.WriteLine("Ya playin with yaself ya incel? Or ya got two to tango baby?");
+                Console.WriteLine("Are you playing solo? Or ya got two to tango baby?");
                 input = Console.ReadLine();
                 switch (input)
                 {
