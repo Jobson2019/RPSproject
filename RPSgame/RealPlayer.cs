@@ -9,6 +9,7 @@ namespace RPSgame
 
         // member variables (HAS A)
         public int choice;
+        
         // Constructor
         public RealPlayer()
         {
@@ -16,7 +17,7 @@ namespace RPSgame
         }
 
         // member methods
-        public override int ChooseGesture()
+        public override  int ChooseGesture()
         {
 
             do
@@ -46,12 +47,12 @@ namespace RPSgame
                     default:
                         Console.WriteLine("Please Enter A Valid Gesture");
                         break;
-                } while (choice != 1 && choice != 2 && choice != 3 && choice != 4 && choice != 5) ;
-               
-               // return (choice);
+                }
 
-            }
-            
+                // return (choice);
+
+            } while (choice != 1 && choice != 2 && choice != 3 && choice != 4 && choice != 5);
+
         }
         public override string NamePlayer()
         {

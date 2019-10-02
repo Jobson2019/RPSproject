@@ -13,6 +13,7 @@ namespace RPSgame
         public Players playerTwo;
         
         
+        
         // Constructor
 
             public Game()
@@ -57,7 +58,7 @@ namespace RPSgame
 
         public int WinRound(int)
         {
-
+            
         }
 
         public void CreatePlayers(int players)
@@ -75,6 +76,65 @@ namespace RPSgame
             }
         }
 
+        public int RoundWinner(int p1Choice, int p2Choice)
+        {
+            switch (p1Choice)
+            {
+                case 1:
+                    if (p2Choice == 1)
+                    {
+                        return 0;
+                    }
+                    if (p2Choice == 2 || p2Choice == 4)
+                    {
+                        return 1;
+                    }
+                    break;
+                case 2:
+                    if (p2Choice == 2)
+                    {
+                        return 0;
+                    }
+                    if (p2Choice == 3 || p2Choice == 4)
+                    {
+                        return 1;
+                    }
+                    break;
+                case 3:
+                    if (p2Choice == 3)
+                    {
+                        return 0;
+                    }
+                    if (p2Choice == 1 || p2Choice == 5)
+                    {
+                        return 1;
+                    }
+                    break;
+                case 4:
+                    if (p2Choice == 4)
+                    {
+                        return 0;
+                    }
+                    if (p2Choice == 3 || p2Choice == 5)
+                    {
+                        return 1;
+                    }
+                    break;
+                case 5:
+                    if (p2Choice == 5)
+                    {
+                        return 0;
+                    }
+                    if (p2Choice == 1 || p2Choice == 2)
+                    {
+                        return 2;
+                    }
+                    break;
+                default:
+                    return 2;
+            }
+            return 2;
+        }
     }  
 
 }
